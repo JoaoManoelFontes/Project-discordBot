@@ -67,11 +67,8 @@ client.on("message", function(message) {
   message.channel.send(errorEmbed);
       }else{
 
-      probabilityArray = [0,1,10,24,27,30,45,47,50,55,60,66,69,70,75,
-                    80,81,85,90,91,95,99,100,200,0,200,100,-100,-200,-1]
-
-    const probability = getRandomInt(0,probabilityArray.length)
-    message.reply(`chance de `+probabilityArray[probability]+`%`)
+    const probability = getRandomInt(0,100)
+    message.reply(`chance de `+probability+`%`)
 
   }
 
