@@ -5,7 +5,7 @@ const client = new Discord.Client({ //adicionando status no bot
  presence: {
   status: 'online',
   activity: {
-   name: 'pica-pau',
+   name: 'Toy Story',
    type: 'WATCHING',
   },
  },
