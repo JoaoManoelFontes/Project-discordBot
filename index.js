@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const config = require("./config.json");
+const getRandomInt = require("./sort.js") //importando a função de sorteio do arquivo sort.js
 
 const client = new Discord.Client({ //adicionando status no bot
  presence: {
@@ -28,16 +29,6 @@ client.on("message", function(message) {
   .setColor('#800000')
   .setTitle('Erro!')
   .setTimestamp()
-
-
-  function getRandomInt(min, max) { //função de sorteio 
-
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min)) + min;
-
-}   
-
 
    //transformando a menssagem em um array (cada palavra em letra minúscula fica em um index do vetor)
   const commandBody = message.content.slice(prefix.length);
