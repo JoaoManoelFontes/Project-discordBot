@@ -18,7 +18,7 @@ Ex: !sort joao maria // o Bot vai sortear um desses nomes
 <li>!prob</li>
 Sorteia a probabilidade de acontecer uma sentença
 <br/>
-Ex: !prob da quarentena no Brasil acabar esse ano // o Bot vai dizer qual a probabilidade entre 0% e 100% dessa frase acontecer
+Ex: !prob do github ser a melhor plataforma para devs // o Bot vai dizer qual a probabilidade entre 0% e 100% dessa sentença ser verdade
 <br/>
 <br/>
 </ul>
