@@ -10,3 +10,4 @@ This bot is a simple discord bot that can sort a list of items randomly. It can 
 * Install the dependencies `npm install` or `yarn install`
 * Create a .env file and add the variables acording to the .env.example file
 * Run the bot `npm start` or `yarn start`
+* To know the commands, type `!comandos` on the discord chat
