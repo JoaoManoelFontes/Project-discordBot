@@ -5,14 +5,14 @@ const {
   EmbedBuilder,
   ActivityType,
 } = require("discord.js");
-const { BOT_TOKEN } = require("./config.json");
-const getRandomInt = require("./sort.js"); //importando a função de sorteio do arquivo sort.js
+require("dotenv").config();
+const getRandomInt = require("./utils/sort.js"); //importando a função de sorteio do arquivo sort.js
 
 const client = new Client({
   intents: [
     GatewayIntentBits.DirectMessages,
     GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildBans,
+    GatewayIntentBits.GuildModeration,
     GatewayIntentBits.GuildMessages,
     GatewayIntentBits.MessageContent,
   ],
@@ -112,4 +112,4 @@ client.on("messageCreate", async (message) => {
   }
 });
 
-client.login(BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);

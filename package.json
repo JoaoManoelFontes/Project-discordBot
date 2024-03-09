@@ -1,0 +1,24 @@
+{
+  "name": "project-discordbot",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Bot Random</h1> <h3 align=\"center\">Bot do discord que tem a função , em geral, de sortear </h3> <br/> <br/> <br/> <p align=\"center\">Funções:</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoManoelFontes/Project-discordBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoManoelFontes/Project-discordBot/issues"
+  },
+  "homepage": "https://github.com/JoaoManoelFontes/Project-discordBot#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
